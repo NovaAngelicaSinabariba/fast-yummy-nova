@@ -753,9 +753,9 @@
 .hamburger {
   display: none;
   position: absolute;
-  top: 25px;
-  left: 20px;
-  font-size: 26px;
+  top: 21px;
+  left: 20px !important;
+  font-size: 20px;
   background: none;
   border: none;
   cursor: pointer;
@@ -828,13 +828,13 @@
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
 
   .desktop .delicious-meals {
     max-width: 641px;
-    width: 60%;
-    top: -20px;
-    left: -80px;
+    width: 50%;
+    top: 10px;
+    left: -75px;
     text-align: center;
     
    
@@ -865,6 +865,7 @@
   .hamburger {
     left: 7PX;
     display: block;
+    width: 10px;
   }
 
   .nav-mobile.show {
@@ -884,8 +885,8 @@
     display: flex !important;
     flex-direction: row;
     gap: 1px;
-    left: 185px;
-    top: 17px;
+    left: 140px;
+    top: 11px;
   }
 
   .MASUKK .masuk {
@@ -900,8 +901,8 @@
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  height: 28px;
-  width: 80px;
+  height: 20px;
+  width: 60px;
   padding: 0 10px;        /* ✅ Pendekin padding */
   border-radius: 20px;
   font-weight: 500;
@@ -917,7 +918,7 @@
     background-color: transparent;
     border: 1px solid #333;
     color: #000;
-    left: 120px !important;
+    left: 140px !important;
   }
 
   .MASUKK .text-wrapper-6 {
@@ -950,7 +951,7 @@
     align-items: center;
     position: absolute;
     top: 28px;     /* Jarak dari atas */
-    left: 40px;    /* Jarak dari kiri */
+    left: 50px;    /* Jarak dari kiri */
     z-index: 10;
     font-family: "Inter", Helvetica;
   }
@@ -960,7 +961,7 @@
     padding-right: 0;
     display: block;
     max-width: 86px;
-    width: 40%;
+    width: 20%;
     height: auto; /* Atur sesuai ukuran yang pas */
   }
 
@@ -968,7 +969,7 @@
     position: relative;
     margin-left: -3px;
     top: 3px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     letter-spacing: 0;
 
   }
@@ -1024,7 +1025,7 @@
 
 /*bg orenge*/
   .desktop .div {
-    height: 1000px;
+    height: 2000px;
   }
 
 
@@ -1041,7 +1042,7 @@
   .desktop .FRESH-DELICIOUS {
     width: 100%;
     top: -50px;
-    left: 33px;
+    left: 13px;
   }
 
   .line{
@@ -1051,16 +1052,16 @@
 /* burger splash */
   .desktop .BURGER {
     width: 40%;
-    top: 225px;
-    left: -55px;
+    top: 350px;
+    left: -80px;
   }
   
   
 /* deskripsi */
   .desktop .p {
     width: 50%;
-    top: 430px;
-    left: -50px;
+    top: 650px;
+    left: -74px;
     text-align: center;
   }
 
@@ -1069,15 +1070,15 @@
   .desktop .order {
     width: 40%;
     height: auto;
-    top: 680px;
-    left: 77px;
+    top: 920px;
+    left: 55px;
   }
   
 
   /*promo*/
   .desktop .PROMO {
-    width: 70%;
-    top: 800px;
+    width: 50%;
+    top: 1050px;
     left: 15px;
   }
   
