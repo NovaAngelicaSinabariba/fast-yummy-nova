@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals2_Menu.css" />
+    <link rel="stylesheet" href="styleguide2_Menu.css" />
+    <link rel="stylesheet" href="style2_Menu.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="mask">
+            <div class="overlap-group">
+              <img
+                class="download-nero-AI"
+                src="https://c.animaapp.com/b6RHuuK8/img/download-nero-ai-background-remover--1--2.png"
+              />
+              <div class="rectangle"></div>
+            </div>
+          </div>
+          <div class="div"></div>
+          <div class="MASUKK">
+            <div class="overlap-2">
+              <div class="group">
+                <div class="logo">
+                  <div class="overlap-group-2">
+                    <div class="text-wrapper">Fast</div>
+                    <div class="text-wrapper-2">Yummy</div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-2"></div>
+            </div>
+            <div class="home-menu-contact">
+              <a href="index1_Home.html">Home</a>
+              &nbsp;&nbsp;&nbsp;
+              <a href="index2_Menu.html">Menu</a>
+              &nbsp;&nbsp;&nbsp;
+              <a href="index3_AboutUs.html">About Us</a>
+              &nbsp;&nbsp;&nbsp;
+              <a href="index4_Contact.html">Contact</a>
+            </div>
+            <div class="overlap-3">
+              <div class="rectangle-2"></div> <!-- Sign Up background -->
+              <div class="rectangle-3"></div> <!-- Sign In background -->
+              <div class="masuk">
+                <div class="text-wrapper-5">Sign In</div>
+                <div class="text-wrapper-6">Sign Up</div>
+              </div>
+              <div class="signin-click-area"></div>
+              <div class="signup-click-area"></div>
+            </div>
+          </div>
+          <div class="menu-utama">
+            <div class="overlap-4">
+              <div class="menu">
+                <div class="ORDER-NOW-wrapper">
+                  <div class="ORDER-NOW">
+                    <div class="div-wrapper"><div class="text-wrapper-7">Order Now</div></div>
+                  </div>
+                </div>
+                <div class="overlap-5">
+                  <div class="overlap-group-wrapper">
+                    <div class="div-wrapper"><div class="text-wrapper-7">Order Now</div></div>
+                  </div>
+                </div>
+                <div class="overlap-6">
+                  <div class="ORDER-NOW-2">
+                    <div class="div-wrapper"><div class="text-wrapper-7">Order Now</div></div>
+                  </div>
+                </div>
+                <div class="overlap-7">
+                  <div class="ORDER-NOW-3">
+                    <div class="div-wrapper"><div class="text-wrapper-7">Order Now</div></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tulisan-menu">
+                <p class="OUR-ITEMS">
+                  <span class="text-wrapper-4">OUR</span> <span class="span">ITEMS</span>
+                  <span class="text-wrapper-8">&nbsp;</span>
+                 
+                </p>
+                <img class="line" src="https://c.animaapp.com/b6RHuuK8/img/line-2.svg" />
+                <img class="img" src="https://c.animaapp.com/b6RHuuK8/img/line-3.svg" />
+                <div class="text-wrapper-9">Various Drinks</div>
+                <p class="p">Free delivery for first order.</p>
+                <div class="text-wrapper-10">Burger</div>
+                <p class="text-wrapper-11">Flats 10% discount on Sunday.</p>
+                <p class="text-wrapper-12">Get 10% off on your order.</p>
+                <div class="text-wrapper-13">Pizza</div>
+                <div class="text-wrapper-14">French fries</div>
+                <p class="text-wrapper-15">Free delivery for first order.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- ========= MODAL FORM & SCRIPT (SISIPKAN SEBELUM </body>) ========= -->
+
+<!-- Modal Container -->
+<div id="modalContainer" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:1001; align-items:center; justify-content:center;">
+  <div style="background:transparent; padding:20px; border-radius:10px; width:300px; position:relative;">
+    <!-- Tombol tutup (X) -->
+
+    <!-- ===== SIGN IN FORM ===== -->
+    <div id="signinForm">
+      <span class="close-btn" onclick="closeModal()">×</span>
+      <h2>Sign In</h2>
+      <input type="text" placeholder="Username" style="width:100%; margin-bottom:10px;"><br>
+      <input type="password" placeholder="Password" style="width:100%; margin-bottom:10px;"><br>
+      <button style="width:100%; margin-bottom:10px;">Send</button><br>
+      <small>Belum punya akun? <a href="#" onclick="switchModal('signup')">Sign Up</a></small>
+    </div>
+
+    <!-- ===== SIGN UP FORM ===== -->
+    <div id="signupForm" style="display:none;">
+      <span class="close-btn" onclick="closeModal()">×</span>
+      <h2>Sign Up</h2>
+      <input type="text" placeholder="Name" style="width:100%; margin-bottom:10px;"><br>
+      <input type="date" style="width:100%; margin-bottom:10px;"><br>
+      <select style="width:100%; margin-bottom:10px;">
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select><br>
+      <input type="text" placeholder="Address" style="width:100%; margin-bottom:10px;"><br>
+      <input type="email" placeholder="Email" style="width:100%; margin-bottom:10px;"><br>
+      <input type="tel" placeholder="Telephone" style="width:100%; margin-bottom:10px;"><br>
+      <input type="password" placeholder="Password" style="width:100%; margin-bottom:10px;"><br>
+      <button style="width:100%;">Send</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SCRIPT UNTUK MODAL ===== -->
+<script>
+  // Tunggu sampai semua konten dimuat
+  document.addEventListener("DOMContentLoaded", function () {
+    // Klik pada "Sign In"
+    document.querySelector(".signin-click-area").addEventListener("click", function () {
+      openModal("signin");
+    });
+    document.querySelector(".signup-click-area").addEventListener("click", function () {
+      openModal("signup");
+    });
+  });
+
+  // Fungsi membuka modal sesuai jenis (signin/signup)
+  function openModal(form) {
+    document.getElementById('modalContainer').style.display = 'flex';
+    document.getElementById('signinForm').style.display = form === 'signin' ? 'block' : 'none';
+    document.getElementById('signupForm').style.display = form === 'signup' ? 'block' : 'none';
+  }
+
+  // Fungsi menutup modal
+  function closeModal() {
+    document.getElementById('modalContainer').style.display = 'none';
+  }
+
+  // Fungsi pindah antar modal
+  function switchModal(form) {
+    openModal(form);
+  }
+</script>
+
+<!-- ========= AKHIR SISIPAN ========= -->
+
+
+
+  </body>
+</html>

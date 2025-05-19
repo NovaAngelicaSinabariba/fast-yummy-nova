@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globals1_Home.css" />
+    <link rel="stylesheet" href="styleguide1_Home.css" />
+    <link rel="stylesheet" href="style1_Home.css" />
+  </head>
+  <body>
+    <div class="desktop" data-model-id="1:2">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="mask">
+            <div class="overlap-group">
+              <img
+                class="download-nero-AI"
+                src="https://c.animaapp.com/XyuEg8Mk/img/download-nero-ai-background-remover--1--2.png"
+              />
+              <div class="rectangle"></div>
+            </div>
+          </div>
+          <div class="div"></div>
+         
+          <div class="MASUKK">
+            <!-- Tombol Hamburger -->
+            <button class="hamburger" id="hamburger">&#9776;</button>
+
+            <!-- Logo Toko -->
+            <div class="logo-container">
+              <img src="https://c.animaapp.com/XyuEg8Mk/img/premium-vector---fast-food-logo-design-vector-removebg-preview-1@2x.png" alt="Logo" class="logo-img" />
+              <span class="logo-text"><span class="fast">Fast</span><span class="yummy">Yummy</span></span>
+            </div>
+
+            <!-- Menu Desktop -->
+            <div class="home-menu-contact nav-desktop">
+              <a href="index1_Home.html">Home</a>
+              <a href="index2_Menu.html">Menu</a>
+              <a href="index3_AboutUs.html">About Us</a>
+              <a href="index4_Contact.html">Contact</a>
+            </div>
+
+            <!-- Menu Mobile (Tersembunyi) -->
+            <div class="nav-mobile" id="mobileMenu">
+              <a href="index1_Home.html">Home</a>
+              <a href="index2_Menu.html">Menu</a>
+              <a href="index3_AboutUs.html">About Us</a>
+              <a href="index4_Contact.html">Contact</a>
+            </div>
+
+            <!-- Sign In / Sign Up -->
+            <div class="overlap-2">
+              <div class="rectangle-2"></div>
+              <div class="rectangle-3"></div>
+              <div class="masuk">
+                <div class="text-wrapper-5">Sign In</div>
+                <div class="text-wrapper-6">Sign Up</div>
+              </div>
+              <div class="signin-click-area"></div>
+              <div class="signup-click-area"></div>
+            </div>
+          </div>
+
+            
+          </div>
+          <div class="BURGER">
+            <div class="overlap-3">
+              <img
+                class="splash-colorsplash"
+                src="https://c.animaapp.com/XyuEg8Mk/img/-splash--colorsplash--orange--freetoedit--ftestickers---tinta-ve.png"
+              />
+              <img
+                class="group-of-fast-food"
+                src="https://c.animaapp.com/XyuEg8Mk/img/group-of-fast-food-products--fast-food-products--group-of-fast-f@2x.png"
+              />
+            </div>
+          </div>
+          <div class="teks-depan">
+            <div class="overlap-4">
+              <div class="judul-besar">
+                <div class="overlap-group-3">
+                  <div class="fresh-delicious">
+                    <div class="FRESH-DELICIOUS">FRESH &amp; DELICIOUS</div>
+                    <img class="line" src="https://c.animaapp.com/XyuEg8Mk/img/line-1.svg" />
+                  </div>
+                  <p class="delicious-meals">
+                    <span class="text-wrapper-7">Delicious Meals<br /></span>
+                    <span class="text-wrapper-8">Delivered</span>
+                    <span class="text-wrapper-7"> to Your Door </span>
+                  </p>
+                </div>
+              </div>
+              <p class="p">
+                Enjoy fresh, flavorful meals made with the finest ingrediennts, delivered straight to your door, every
+                time.
+              </p>
+            </div>
+          </div>
+          <div class="order">
+            <a href="index2_Menu.html" class="ORDER-NOW">
+              <div class="div-wrapper"><div class="text-wrapper-9">Order Now</div></div>
+            </a>
+
+            <a href="index3_AboutUs.html" class="overlap-5">
+              <div class="text-wrapper-10">Learn More</div>
+              <div class="rectangle-4"></div>
+            </a>
+
+          </div>
+          <div class="PROMO">
+            <div class="overlap-6">
+              <img
+                class="food-delivery-symbol"
+                src="https://c.animaapp.com/XyuEg8Mk/img/food-delivery-symbol-logo-png-vector--ai--free-download-nero-ai-@2x.png"
+              />
+              <p class="text-wrapper-11">Free shipping for a min purchase of 100rb</p>
+              <div class="text-wrapper-12">PROMO!!!</div>
+            </div>
+          </div>
+          <div class="slogan">
+            <p class="speedy-meals">
+              <span class="text-wrapper-13">Speedy</span> <span class="text-wrapper-14"> Meals,</span>
+            </p>
+            <p class="taste-the-speed-love">
+              <span class="text-wrapper-15">Taste the </span>
+              <span class="text-wrapper-16">speed</span>
+              <span class="text-wrapper-15">, Love the </span>
+              <span class="text-wrapper-16">flavor</span>
+              <span class="text-wrapper-15">!</span>
+            </p>
+            <p class="happy-feels">
+              <span class="text-wrapper-13">Happy</span> <span class="text-wrapper-14"> Feels!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========= MODAL FORM & SCRIPT (SISIPKAN SEBELUM </body>) ========= -->
+
+<!-- Modal Container -->
+<div id="modalContainer" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:1001; align-items:center; justify-content:center;">
+  <div style="background:transparent; padding:20px; border-radius:10px; width:300px; position:relative;">
+    <!-- Tombol tutup (X) -->
+
+    <!-- ===== SIGN IN FORM ===== -->
+    <div id="signinForm">
+      <span class="close-btn" onclick="closeModal()">×</span>
+      <h2>Sign In</h2>
+      <input type="text" placeholder="Username" style="width:100%; margin-bottom:10px;"><br>
+      <input type="password" placeholder="Password" style="width:100%; margin-bottom:10px;"><br>
+      <button style="width:100%; margin-bottom:10px;">Send</button><br>
+      <small>Belum punya akun? <a href="#" onclick="switchModal('signup')">Sign Up</a></small>
+    </div>
+
+    <!-- ===== SIGN UP FORM ===== -->
+    <div id="signupForm" style="display:none;">
+      <span class="close-btn" onclick="closeModal()">×</span>
+      <h2>Sign Up</h2>
+      <input type="text" placeholder="Name" style="width:100%; margin-bottom:10px;"><br>
+      <input type="date" style="width:100%; margin-bottom:10px;"><br>
+      <select style="width:100%; margin-bottom:10px;">
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select><br>
+      <input type="text" placeholder="Address" style="width:100%; margin-bottom:10px;"><br>
+      <input type="email" placeholder="Email" style="width:100%; margin-bottom:10px;"><br>
+      <input type="tel" placeholder="Telephone" style="width:100%; margin-bottom:10px;"><br>
+      <input type="password" placeholder="Password" style="width:100%; margin-bottom:10px;"><br>
+      <button style="width:100%;">Send</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SCRIPT UNTUK MODAL ===== -->
+<script>
+  // Tunggu sampai semua konten dimuat
+  document.addEventListener("DOMContentLoaded", function () {
+    // Klik pada "Sign In"
+    document.querySelector(".signin-click-area").addEventListener("click", function () {
+      openModal("signin");
+    });
+    document.querySelector(".signup-click-area").addEventListener("click", function () {
+      openModal("signup");
+    });
+  });
+
+  // Fungsi membuka modal sesuai jenis (signin/signup)
+  function openModal(form) {
+    document.getElementById('modalContainer').style.display = 'flex';
+    document.getElementById('signinForm').style.display = form === 'signin' ? 'block' : 'none';
+    document.getElementById('signupForm').style.display = form === 'signup' ? 'block' : 'none';
+  }
+
+  // Fungsi menutup modal
+  function closeModal() {
+    document.getElementById('modalContainer').style.display = 'none';
+  }
+
+  // Fungsi pindah antar modal
+  function switchModal(form) {
+    openModal(form);
+  }
+
+
+  //fungsi untuk menu mobile
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('show');
+  });
+
+</script>
+
+<!-- ========= AKHIR SISIPAN ========= -->
+
+
+
+    
+  </body>
+</html>
