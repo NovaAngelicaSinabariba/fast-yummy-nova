@@ -752,6 +752,7 @@
 
 .hamburger {
   display: none;
+  color: #000;
   position: absolute;
   top: 21px;
   left: 20px !important;
@@ -834,7 +835,7 @@
     max-width: 641px;
     width: 50%;
     top: 10px;
-    left: -75px;
+    left: -72px;
     text-align: center;
     
    
@@ -1041,8 +1042,8 @@
   
   .desktop .FRESH-DELICIOUS {
     width: 100%;
-    top: -50px;
-    left: 13px;
+    top: -55px;
+    left: 9px;
   }
 
   .line{
@@ -1060,7 +1061,7 @@
 /* deskripsi */
   .desktop .p {
     width: 50%;
-    top: 650px;
+    top: 580px;
     left: -74px;
     text-align: center;
   }
@@ -1070,7 +1071,7 @@
   .desktop .order {
     width: 40%;
     height: auto;
-    top: 920px;
+    top: 850px;
     left: 55px;
   }
   
@@ -1078,7 +1079,7 @@
   /*promo*/
   .desktop .PROMO {
     width: 50%;
-    top: 1050px;
+    top: 950px;
     left: 15px;
   }
   
